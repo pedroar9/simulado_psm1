@@ -1,11 +1,47 @@
 <img src="https://img.shields.io/badge/Python-4584b6?style=for-the-badge&logo=python&logoColor=FFDE57"/> <img src="https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white"/> <img src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"/> <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
 
 
-# 🐍 Simulado Interativo da certificação em Python - PCEP
+# 📋 Simulado Interativo — Professional Scrum Master I (PSM I)
 
-Este projeto é um **simulado interativo** para auxiliar nos estudos para a certificação **PCEP™ – Certified Entry-Level Python Programmer**.
+Este projeto é um **simulado interativo** para auxiliar nos estudos para a certificação **Professional Scrum Master I (PSM I)** da [Scrum.org](https://www.scrum.org/assessments/professional-scrum-master-i-certification).
 
-A aplicação foi desenvolvida utilizando:
+---
+
+## 🏅 Sobre a Certificação PSM I
+
+A certificação **PSM I** valida o entendimento profundo do framework **Scrum** conforme descrito no **Scrum Guide**. É reconhecida mundialmente como referência para Scrum Masters e profissionais de agilidade.
+
+| Informação | Detalhe |
+|---|---|
+| **Organizadora** | [Scrum.org](https://www.scrum.org/) |
+| **Formato** | Exame online (sem necessidade de supervisor) |
+| **Duração** | 60 minutos |
+| **Questões** | 80 (múltipla escolha e verdadeiro/falso) |
+| **Nota mínima** | 85% de acerto (68 de 80 questões) |
+| **Custo** | $200 USD (uma tentativa incluída) |
+| **Validade** | Não expira — certificação vitalícia |
+| **Idioma** | Inglês |
+| **Base de conhecimento** | [The Scrum Guide™ 2020](https://scrumguides.org/) |
+
+---
+
+## 💡 Sobre este Simulado
+
+Este simulado conta com um **banco de 200+ questões** que cobrem todos os tópicos cobrados na PSM I:
+
+- 🏛️ **Pilares do Scrum** — Transparência, Inspeção, Adaptação
+- 💎 **Valores do Scrum** — Comprometimento, Coragem, Foco, Abertura, Respeito
+- 👥 **Accountabilities (Papéis)** — Scrum Master, Product Owner, Developers
+- 📅 **Eventos** — Sprint, Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective
+- 📦 **Artefatos** — Product Backlog, Sprint Backlog, Incremento
+- 🎯 **Compromissos** — Meta do Produto, Meta da Sprint, Definição de Pronto
+- ⚠️ **Anti-patterns e cenários práticos** — Situações reais cobradas no exame
+
+A cada sessão, **80 questões** são selecionadas aleatoriamente do banco, com **dificuldades variadas** (fácil, média, difícil), simulando fielmente o exame real.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
 
 - 🐍 **Python** como linguagem principal
 - 📄 **Markdown** para estrutura textual
@@ -21,16 +57,14 @@ Ideal para dashboards, simulações, análises de dados e visualizações simple
 
 ---
 
-
-
-## Configuração do Ambiente
+## ⚙️ Configuração do Ambiente
 
 Para configurar o ambiente de desenvolvimento, siga os passos abaixo:
 
-1.  **Clone o repositório (se aplicável):**
+1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/pedroar9/simulado_python_pcep.git
-    cd simulado_python_pcep
+    git clone https://github.com/pedroar9/simulado_psm1.git
+    cd simulado_psm1
     ```
 
 2.  **Crie um ambiente virtual (recomendado):**
@@ -53,13 +87,13 @@ Para configurar o ambiente de desenvolvimento, siga os passos abaixo:
     pip install -r requirements.txt
     ```
 
-## Como Usar
+## 🚀 Como Usar
 
 Para executar o simulado, siga os passos abaixo:
 
 1. **Execute o comando abaixo no terminal**  
     ```bash 
-    streamlit run simulado_python_pcep.py
+    streamlit run simulado_psm.py
     ```
 
 ## © Licença
