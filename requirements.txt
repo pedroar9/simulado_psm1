@@ -6,8 +6,6 @@ certifi==2025.4.26
 charset-normalizer==3.4.2
 click==8.2.1
 DateTime==5.5
-gitdb==4.0.12
-GitPython==3.1.44
 idna==3.10
 Jinja2==3.1.6
 jsonschema==4.24.0
@@ -17,10 +15,7 @@ narwhals==1.42.0
 numpy==2.2.4  # compatível com scipy 1.14.x e 2.x do Streamlit/Pandas
 packaging==24.2
 pandas==2.3.0
-pillow==11.2.1
 protobuf==6.31.1
-# pyarrow is removed because it requires native build (cmake) and causes Streamlit Cloud failure for Python 3.14
-# Se precisar de pyarrow, use versão com wheel compatível, por ex. pyarrow==23.0.0
 pydeck==0.9.1
 python-dateutil==2.9.0.post0
 pytz==2025.2
@@ -31,8 +26,6 @@ setuptools==80.9.0
 six==1.17.0
 smmap==5.0.2
 streamlit==1.45.1
-tenacity==9.1.2
-toml==0.10.2
 tornado==6.5.1
 typing_extensions==4.14.0
 tzdata==2025.2
