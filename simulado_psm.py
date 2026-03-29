@@ -13,6 +13,9 @@ fuso_brasilia = pytz.timezone("America/Sao_Paulo")
 agora = datetime.now(fuso_brasilia)
 data_atual = agora.today().strftime("%d/%m/%Y")
 
+# --- Data de build (data de modificação do arquivo) ---
+data_build = datetime.fromtimestamp(os.path.getmtime(__file__), fuso_brasilia).strftime("%d/%m/%Y")
+
 
 # --- Questoes ---
 questions_data = [
@@ -1873,9 +1876,6 @@ def add_to_ranking(user_data, score, time_seconds, total_questions_quiz, questio
 
 def display_question(question_data, current_idx, total_questions):
     # Título geral do simulado
-    st.markdown("""            
-
-    ### 📋 Simulado PSM I - Professional Scrum Master I
     st.markdown(
         f"<div class='quiz-question-text'><strong>Pergunta {current_idx + 1}/{total_questions}:</strong></div>", 
         unsafe_allow_html=True)
@@ -2070,8 +2070,8 @@ if "questions_to_ask" not in st.session_state:
 if not st.session_state.quiz_started:
     st.markdown("""
         <div style="display: flex; align-items: center; gap: 12px;">
-            <img src="https://www.datocms-assets.com/100834/1707764904-scrum_org-logo-full-color-no_r-hex_662d91.svg" alt="Scrum.org Logo" width="160"/>
-            <h1 style="margin: 0;">Simulado PSM I — Professional Scrum Master I</h1>
+            <img src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2022-09/asset_44psmi_0.png" alt="Scrum.org Logo" width="160"/>
+            <h1 style="margin: 0;">Simulado PSM I - Professional Scrum Master I</h1>
         </div>
     """, unsafe_allow_html=True)
 
@@ -2082,8 +2082,8 @@ Este simulado é baseado na certificação oficial **Professional Scrum Master I
 
 A PSM I valida o entendimento profundo do framework **Scrum** conforme descrito no **Scrum Guide 2020**.
 
----
-                
+---  
+
 📝 **Formato da Prova Oficial:**
 - 🔢 **Número de questões:** 80 (múltipla escolha e verdadeiro/falso)  
 - ⏰ **Tempo para realização:** 60 minutos  
@@ -2249,7 +2249,7 @@ st.markdown(
           </div>  
           <div class="linha"> <br> </div>
           <div class="linha">⚙️ <b>Versão:</b> 3.0.1</div> 
-          <div class="linha">🗓️ <b>Build:</b> {data_atual}</div>        
+          <div class="linha">🗓️ <b>Build:</b> {data_build}</div>        
       </div>
     </div>
     """,
