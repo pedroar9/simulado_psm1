@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simulado_psm1"
+version = "3.0.1"
+description = "Simulado PSM I em Streamlit"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "streamlit==1.45.1",
+  "pandas==2.3.0",
+  "pytz==2025.2",
+  "numpy==2.2.4",
+  "protobuf==6.31.1"
+]
+license = "Apache-2.0"
+license-files = ["LICENSE.txt", "NOTICE.txt"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Framework :: Streamlit"
+]
+
+[tool.setuptools]
+# packages discovery padrão
+packages = { find = {} }
+
+[tool.setuptools.package-data]
+"" = ["*.txt"]
