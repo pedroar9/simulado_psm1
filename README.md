@@ -21,7 +21,8 @@ A certificação **PSM I** valida o entendimento profundo do framework **Scrum**
 | **Custo** | $200 USD (uma tentativa incluída) |
 | **Validade** | Não expira — certificação vitalícia |
 | **Idioma** | Inglês |
-| **Base de conhecimento** | [The Scrum Guide™ 2020](https://scrumguides.org/) |
+| **Base de conhecimento** | [The Scrum Guide™ 2020](https://scrumguides.org/) |  
+| **Scrum Guide™ PT-BR** | [Scrum Guide™ PT-BR](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) |
 
 ---
 
@@ -37,7 +38,7 @@ Este simulado conta com um **banco de 200+ questões** que cobrem todos os tópi
 - 🎯 **Compromissos** — Meta do Produto, Meta da Sprint, Definição de Pronto
 - ⚠️ **Anti-patterns e cenários práticos** — Situações reais cobradas no exame
 
-A cada sessão, **80 questões** são selecionadas aleatoriamente do banco, com **dificuldades variadas** (fácil, média, difícil), simulando fielmente o exame real.
+A cada sessão, **80 questões** são selecionadas aleatoriamente do banco, com **dificuldades variadas** (fácil, média, difícil), simulando o exame real.
 
 ---
 

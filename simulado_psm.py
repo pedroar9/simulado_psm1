@@ -2091,7 +2091,7 @@ A PSM I valida o entendimento profundo do framework **Scrum** conforme descrito 
 - 💰 **Custo:** $200 USD (uma tentativa incluída)  
 - 🌐 **Aplicação:** Online, sem necessidade de supervisor  
 - ♾️ **Validade:** Não expira — certificação vitalícia  
-- 📖 **Conteúdo da Prova:** [The Scrum Guide™ 2020](https://scrumguides.org/)
+- 📖 **Base de conhecimento** [The Scrum Guide™ 2020](https://scrumguides.org/)
 - 📖 **[Scrum Guide PT-BR](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf)**  
 
 --- 
@@ -2251,7 +2251,7 @@ st.markdown(
               </a>         
           </div>  
           <div class="linha"> <br> </div>
-          <div class="linha">⚙️ <b>Versão:</b> 1.0.7</div> 
+          <div class="linha">⚙️ <b>Versão:</b> 1.0.8</div> 
           <div class="linha">🗓️ <b>Build:</b> {data_build}</div>        
       </div>
     </div>
