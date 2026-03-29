@@ -19,7 +19,8 @@ packaging==24.2
 pandas==2.3.0
 pillow==11.2.1
 protobuf==6.31.1
-pyarrow==20.0.0
+# pyarrow is removed because it requires native build (cmake) and causes Streamlit Cloud failure for Python 3.14
+# Se precisar de pyarrow, use versão com wheel compatível, por ex. pyarrow==23.0.0
 pydeck==0.9.1
 python-dateutil==2.9.0.post0
 pytz==2025.2

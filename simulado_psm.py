@@ -2248,7 +2248,7 @@ st.markdown(
               </a>         
           </div>  
           <div class="linha"> <br> </div>
-          <div class="linha">⚙️ <b>Versão:</b> 1.0.2</div> 
+          <div class="linha">⚙️ <b>Versão:</b> 1.0.4</div> 
           <div class="linha">🗓️ <b>Build:</b> {data_build}</div>        
       </div>
     </div>
